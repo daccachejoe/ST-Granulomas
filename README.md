@@ -6,7 +6,7 @@ The purpose of this GH repo is to provide the code from the 2024 publication usi
 
 ### Analytical workflow
 **Upstream Processing in spaceranger** 
-*spaceranger* (version X.x.x), the analysis tool developed by 10x Genomics was used to intiialy process our slides. The script can be found in `src/spaceranger.sh`
+*spaceranger*, the analysis tool developed by 10x Genomics was used to intiialy process our slides. The script can be found in `src/spaceranger.sh`
 
 ### wrapper functions
 At the top of every processing script, the file containing wrapper functions `src/Spatial_wrappers.R` is read in. This file contains user defined functions used to perform the bulk of the analysis. The functions are genrally written to work on lists of seurat/giotto object, owing the nature of the study working on multiple objects at a time.  
